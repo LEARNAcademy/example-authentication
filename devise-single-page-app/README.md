@@ -1,14 +1,31 @@
-# Devise and the Single Page App
+# Single Page App Authentication
 
-In this example, we bring all of the concepts we've been working with into one fully functional, full stack application.  We'll use Rails to differentiate between protected and public routes, Devise to handle authentication, and a React Single Page App do do the UI work.
+This example takes a look at how we log users into an application.  We start off with a discussion of a few concepts around authentication and authorization.  It's important to make the distinction clearly.
 
-We'll pick this app up where the Devise Example app leaves off.  At the start, we have:
+## Start Here
+* [Authentication vs. Authroization](./01-authentication-vs-authorization.md) (independent reading)
+* [Authentication](./02-authentication.md) (independent reading)
 
-* A functioning Rails 5 application
-* Devise and a User Model for authentication
-* A Bike resource associated to Users.
-* Scaffolded Controller and Views for Bikes
+## Devise
+We turn our attention to a base install of Devise, a popular Rails authentication gem, and explore how Devise works in an app that doesn't use React.
 
-## About the Git Branches
-* 'master' has the completed project
-* 'single-page-app-starting-point' is where this example picks up.  If you are following along, checkout that branch, and start coding from there.
+#### Group Work
+This example is intended to be done as a group exercise.
+
+* [Devise Example](./devise-example) (Group Exercise)
+
+#### Exercises
+
+* [Devise Database Authenticatable](https://classroom.github.com/g/epnZJjNB) (Pair Exercise)
+
+## Devise and a Single Page App
+
+#### Group Work
+This example, meant to be done as a group exercise brings all the concepts together.  We build an app with authenticated Devise routes, and a single page application.
+
+* [Devise Single Page App](./devise-single-page-app)(Group Exercise)
+
+
+#### Exercises
+
+* [Complete Skateboard App](https://classroom.github.com/g/9Gr3QFjQ)(Pair Exercise)

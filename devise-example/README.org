@@ -198,3 +198,7 @@ cat -n app/controllers/bikes_controller.rb |sed 27,39!d
 ```
 
 ### 10) Now when we test it out, we can see in the console that Bikes are assigned to the user
+
+## Next Up Single Page App with Devise
+
+[Setup a Single Page React App with Rails and Devise](../devise-single-page-app)

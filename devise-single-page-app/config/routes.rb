@@ -1,5 +1,7 @@
 Rails.application.routes.draw do
-  resources :bikes
+  resources :bikes, constraints: ->(request){ !request.format.html? }
   devise_for :users
-  root to: 'bikes#index'
+
+  get '*path', to: 'pages#protected', constraints: ->(request){ request.format.html? }
+  root to: 'pages#unprotected'
 end
